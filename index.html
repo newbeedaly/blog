@@ -9,6 +9,18 @@
 <body>
   <header>
     <h1>newbeedaly's blog</h1>
+	<div class="nav-categories">
+		<a onclick="loadMarkdown('Index')">首页</a>
+		<a onclick="loadMarkdown('Design Patterns')">Design Patterns</a>
+		<a onclick="loadMarkdown('Spring')">Spring</a>
+		<a onclick="loadMarkdown('Spring Boot')">SpringBoot</a>
+		<a onclick="loadMarkdown('Spring Cloud')">SpringCloud</a>
+		<a onclick="loadMarkdown('Dubbo')">Dubbo</a>
+		<a onclick="loadMarkdown('Distributed')">Distributed</a>
+		<a onclick="loadMarkdown('Docker')">Docker</a>
+		<a onclick="loadMarkdown('K8S')">K8S</a>
+		<a onclick="loadMarkdown('Essay')">Essay</a>
+	</div>
   </header>
   <main>
     <div id="content">
@@ -16,7 +28,7 @@
         <!-- Markdown content will be loaded and rendered here -->
       </article>
       <div id="toc">
-        <h3>导航栏</h3>
+        <!-- <h3>导航栏</h3> -->
         <ul id="toc-list"></ul>
       </div>
     </div>

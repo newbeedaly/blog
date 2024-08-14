@@ -1,5 +1,5 @@
 function loadMarkdown(filename) {
-  fetch(`./markdown/${filename}`)
+  fetch(`./markdown/${filename}.md`)
     .then(response => response.text())
     .then(text => {
       // Convert Markdown to HTML using marked
@@ -57,6 +57,4 @@ function loadMarkdown(filename) {
 };
 
 // Load the first markdown file by default
-loadMarkdown('example.md');
-
-  
+loadMarkdown('Index');
