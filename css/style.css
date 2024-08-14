@@ -30,7 +30,7 @@ header h1 {
   margin: 0;
   padding: 0;
   white-space: nowrap; /* Prevent h1 from wrapping */
-  padding: 0 50px;
+  padding: 0 5px;
   color: #ffffff;
   outline: none; /* Removes focus outline */
   user-select: none; /* Prevents text selection */
@@ -42,7 +42,7 @@ header h1 {
   flex-shrink: 0; /* Prevent nav-categories from shrinking */
   justify-content: flex; /* Align links to the right */
   gap: 15px;
-  padding: 0 50px;
+  padding: 0 10px;
 }
 
 .nav-categories a {
