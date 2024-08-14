@@ -6,7 +6,6 @@ This is a blog website for java developer, I We will share some technical knowle
 
 ## Content
 
-- **<a onclick="loadMarkdown('Index')">首页</a>**
 - **<a onclick="loadMarkdown('Design Patterns')">Design Patterns</a>**
 - **<a onclick="loadMarkdown('Spring')">Spring</a>**
 - **<a onclick="loadMarkdown('Spring Boot')">SpringBoot</a>**
