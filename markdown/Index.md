@@ -6,7 +6,7 @@ This is a blog website for java developer, I We will share some technical knowle
 
 ## Content
 
-- **<a onclick="loadMarkdown('DesignPatterns')">Design Patterns</a>**
+- **<a onclick="loadMarkdown('DesignPatterns')">DesignPatterns</a>**
 - **<a onclick="loadMarkdown('Spring')">Spring</a>**
 - **<a onclick="loadMarkdown('SpringBoot')">SpringBoot</a>**
 - **<a onclick="loadMarkdown('SpringCloud')">SpringCloud</a>**
