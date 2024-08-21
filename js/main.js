@@ -1,3 +1,8 @@
+window.addEventListener('load', function() {
+  var audio = document.getElementById('audio');
+  audio.play();
+});
+
 function loadMarkdown(filename) {
   fetch(`./markdown/${filename}.md`)
     .then(response => response.text())

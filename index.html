@@ -9,19 +9,19 @@
 <body>
   <header>
     <h1 onclick="loadMarkdown('Index')">newbeedaly's blog</h1>
-	<div class="nav-categories">
-		<a onclick="loadMarkdown('Java')">Java</a>
-		<a onclick="loadMarkdown('DesignPatterns')">DesignPatterns</a>
-		<a onclick="loadMarkdown('Spring')">Spring</a>
-		<a onclick="loadMarkdown('SpringBoot')">SpringBoot</a>
-		<a onclick="loadMarkdown('SpringCloud')">SpringCloud</a>
-		<a onclick="loadMarkdown('Dubbo')">Dubbo</a>
-    <a onclick="loadMarkdown('Middleware')">Middleware</a>
-		<a onclick="loadMarkdown('Distributed')">Distributed</a>
-		<a onclick="loadMarkdown('Docker')">Docker</a>
-		<a onclick="loadMarkdown('K8S')">K8S</a>
-		<a onclick="loadMarkdown('Essay')">Essay</a>
-	</div>
+    <div class="nav-categories">
+      <a onclick="loadMarkdown('Java')">Java</a>
+      <a onclick="loadMarkdown('DesignPatterns')">DesignPatterns</a>
+      <a onclick="loadMarkdown('Spring')">Spring</a>
+      <a onclick="loadMarkdown('SpringBoot')">SpringBoot</a>
+      <a onclick="loadMarkdown('SpringCloud')">SpringCloud</a>
+      <a onclick="loadMarkdown('Dubbo')">Dubbo</a>
+      <a onclick="loadMarkdown('Middleware')">Middleware</a>
+      <a onclick="loadMarkdown('Distributed')">Distributed</a>
+      <a onclick="loadMarkdown('Docker')">Docker</a>
+      <a onclick="loadMarkdown('K8S')">K8S</a>
+      <a onclick="loadMarkdown('Essay')">Essay</a>
+    </div>
   </header>
   <main>
     <div id="content">
@@ -32,6 +32,11 @@
         <!-- <h3>导航栏</h3> -->
         <ul id="toc-list"></ul>
       </div>
+    </div>
+    <div id="audio-player">
+      <audio id="audio" controls autoplay>
+          <source src="music/栗先达 - 觅香.flac" type="audio/mpeg">
+      </audio>
     </div>
   </main>
   <footer>
