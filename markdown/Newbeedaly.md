@@ -14,8 +14,11 @@ This is a blog website for java developer, I We will share some technical knowle
 - **<a onclick="loadMarkdown('Middleware')">Middleware</a>**
 - **<a onclick="loadMarkdown('Distributed')">Distributed</a>**
 - **<a onclick="loadMarkdown('Examples')">Examples</a>**
+- **<a onclick="loadMarkdown('Vue')">Vue</a>**
 - **<a onclick="loadMarkdown('Docker')">Docker</a>**
 - **<a onclick="loadMarkdown('K8S')">K8S</a>**
+- **<a onclick="loadMarkdown('Essay')">Essay</a>**
+- **<a onclick="loadMarkdown('Interview')">Interview</a>**
 
 ## Contact Me
 
